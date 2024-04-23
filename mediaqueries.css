@@ -2,6 +2,8 @@
     #home {
         height: 83vh;
         margin-bottom: 6rem;
+        margin-left: auto;
+        margin-right: auto;
     }
     .about-containers {
         flex-wrap: wrap;
@@ -63,6 +65,10 @@
 }
 
 @media screen and (max-width: 600px) {
+    * {
+        margin-left: auto;
+        margin-right: auto;
+    }
 
     #contact, footer {
         height: 40vh;
