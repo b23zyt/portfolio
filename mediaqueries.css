@@ -65,9 +65,9 @@
 }
 
 @media screen and (max-width: 600px) {
-    * {
-        margin-left: auto;
-        margin-right: auto;
+    body {
+        display: flex;
+        justify-content: center;
     }
 
     #contact, footer {
