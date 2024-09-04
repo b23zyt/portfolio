@@ -1,15 +1,4 @@
-@media screen and (max-width: 1400px) {
-    #home {
-        height: 83vh;
-        margin-bottom: 6rem;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .about-containers {
-        flex-wrap: wrap;
-    }
-}
-
+/* General Adjustments for Tablet Screens */
 @media screen and (max-width: 1200px) {
     #desktop-nav {
         display: none;
@@ -20,15 +9,11 @@
     #home, .section-container {
         display: block;
     }
+    section {
+        margin: 5%;
+    }
     .arrow, .about-arrow, .contact-arrow, .home-arrow {
         display: none;
-    }
-    section, .section-container {
-        height: fit-content;
-        
-    }
-    section {
-        margin: 5% 5%;
     }
     .section__pic-container {
         width: 275px;
@@ -36,100 +21,76 @@
         margin: 0 auto 2rem;
     }
     .about-containers {
+        flex-wrap: wrap;
         margin-top: 0;
     }
     .contact-info-upper-container {
-        width: fit-content;
+        width: 100%;
     }
-
     #about {
         margin-top: 10rem;
     }
-
     .advertisement {
         margin-bottom: -2rem;
     }
-
     .section-container {
-        display: flex;
         flex-direction: column;
         align-items: center;
     }
-
     .about-pic {
-        height: 380px;
-        width: 300px;
+        display: none;
     }
-
-
 }
 
-@media screen and (max-width: 600px) {
+/* Adjustments for Mobile Screens */
+/* @media screen and (max-width: 600px) {
     body {
         display: flex;
         justify-content: center;
     }
-
     #contact, footer {
         height: 40vh;
     }
-
     #home {
         height: 83vh;
         margin-bottom: 0;
     }
-
     #about {
         margin-top: 13rem;
     }
-
     footer nav {
-        height: fit-content;
         margin-bottom: 2rem;
     }
-
     .about-containers, .btn-container {
         flex-wrap: wrap;
     }
-
     .contact-info-upper-container {
         margin-top: 3rem;
     }
-
-
-    .contact-info-upper-container p, .nav-links li a {
+    .contact-info-upper-container p,
+    .nav-links li a {
         font-size: 1rem;
     }
-
     .logo {
         font-size: 1.5rem;
     }
-
     .nav-links {
         flex-direction: column;
         gap: 0.5rem;
         text-align: center;
     }
-
     .section__pic-container {
-        width: auto;
         height: 46vh;
         justify-content: center;
     }
-
     .text-container {
         text-align: center;
     }
-
     .section-container {
-        display: flex;
         flex-direction: column;
         align-items: center;
     }
-
     .about-pic {
-        height: 240px;
-        width: 200px;
+        display: none;
     }
-
-}
+} */
