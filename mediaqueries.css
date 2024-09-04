@@ -27,6 +27,12 @@
     .contact-info-upper-container {
         width: 100%;
     }
+
+    .contact-info-upper-container p {
+        display: none;
+    }
+
+    
     #about {
         margin-top: 10rem;
     }
